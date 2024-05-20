@@ -13,3 +13,11 @@ def luas_persegi_panjang():
     print("Luas Persegi Panjang : ", luasp)
 
 luas_persegi_panjang()
+
+def luas_lingkaran():
+    r = int(input("Masukkan Jari-jari : "))
+    phi = 22/7
+    luasl = phi * r * r
+    print("Luas lingkaran : " , luasl)
+
+luas_lingkaran()
